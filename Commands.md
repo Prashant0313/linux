@@ -24,9 +24,9 @@ Swap:         999420           0      999420
 
 
 `ls` To list the files and directories in the current working directory, we use the ls command.
-![[Pasted image 20250503214856.png]]
+![[/images/Pasted image 20250503214856.png]]
 
-![[Pasted image 20250505181518.png]]
+![[/images/Pasted image 20250505181518.png]]
 we will use the file command to determine a file’s type.
 	`──(kali㉿kali)-[~]
 	`└─$ file`    *filename*
@@ -34,7 +34,7 @@ we will use the file command to determine a file’s type.
 The less command is a program to view text files.
 	`──(kali㉿kali)-[~]
 	`└─$ less`    *filename*
-![[Pasted image 20250505182207.png]]
+![[/images/Pasted image 20250505182207.png]]
 
 | Directory      | Comments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -70,9 +70,9 @@ After some research on this topis
 
 ### Wildcards
 These are the special characters which used to specify the group of filenames 
-![[Pasted image 20250506011622.png]]
-![[Pasted image 20250506011707.png]]
-![[Pasted image 20250506011935.png]]
+![[/images/Pasted image 20250506011622.png]]
+![[/images/Pasted image 20250506011707.png]]
+![[/images/Pasted image 20250506011935.png]]
 
 ### mkdir—Create Directories
 
@@ -83,8 +83,8 @@ These are the special characters which used to specify the group of filenames
 `cp` *itme1  item2*
 `cp` *file...  destination*
 ##### Useful Options and Examples
-![[Pasted image 20250506012501.png]]
-![[Pasted image 20250506012840.png]]
+![[/images/Pasted image 20250506012501.png]]
+![[/images/Pasted image 20250506012840.png]]
 
 ### mv—Move and Rename Files
 
@@ -96,16 +96,16 @@ to move or rename the file or directory
 
 `mv` *file ...  destination*
 
-![[Pasted image 20250506013804.png]]
+![[/images/Pasted image 20250506013804.png]]
 
 ### rm—Remove Files and Directories
 The rm command is used to remove (delete) files and directories
 `rm` *file ...*
 
-![[Pasted image 20250506014011.png]]
+![[/images/Pasted image 20250506014011.png]]
 > Tip: whenever you use wildcards with rm (besides carefully checking your typing!), test the wildcard first with ls. This will let you see the files that will be deleted. Then press the up arrow to recall the command and replace ls with rm.
 
-![[Pasted image 20250506014532.png]]
+![[/images/Pasted image 20250506014532.png]]
 
 ### `type` Display a command's type
 
@@ -136,7 +136,7 @@ Most executable programs intended for command line use provide a formal piece of
 >The “manual” that man displays is broken into sections and covers not only user commands but also system administration commands, programming interfaces, file formats, and more. Table 5-1 describes the layout of the manual.
 >Sometimes we need to refer to a specific section of the manual to find what we are looking for.
 
-![[Pasted image 20250506224044.png]]
+![[/images/Pasted image 20250506224044.png]]
 
 
 ### `apropos` Display Appropriate Commands
